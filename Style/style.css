@@ -1,0 +1,318 @@
+/* ================================  PAGE 1  ================================ */
+
+.navbar-1{
+    padding: 0 200px;
+}
+.navbar-2 li:hover{
+    background-color: rgba(185, 185, 185, 0.144);
+}
+.search-box {
+    border: 1px solid rgb(128, 128, 128);
+    border-radius: 10px;
+    padding: 2px 10px;
+}
+.search{
+    border: none !important;
+    outline: none;
+}
+.search:focus{
+    box-shadow: none;
+}
+.background{
+    background-image: url(../Images/1-Home.png);
+    background-size: cover;
+}
+.ave{
+    padding: 35px 0px 25px 120px;
+    display: flex;
+    justify-content: center;
+}
+.avetext{
+    letter-spacing: 14rem;
+    font-size: 240px;
+    font-weight: 900;
+    color: rgb(61, 61, 61);
+}
+
+/* --------Section 2 ---------- */
+.sec2-ul{
+    list-style-type: none;
+}
+.sec2-ul a{
+    text-decoration: none;
+    color: black;
+}
+.sec2-ul li{
+    margin: 0 5px;
+}
+.sec2-ul a:hover{
+    color: rgb(0, 140, 255);
+}
+.section-2 img{
+    width: 100%;
+}
+
+/* -------section-4---------- */
+.section-4 img{
+    width: 100%;
+}
+.section-4 h4{
+    font-weight: 800;
+    letter-spacing: 3px;
+}
+.section-4 h5{
+    font-size: 28px;
+    letter-spacing: 3px;
+}
+.section-4 .col-md-4,.section-4 .col-12{
+    background-color: rgb(248, 248, 248);
+}
+.icons i{
+    background-color: rgba(128, 128, 128, 0.767);
+    padding: 10px;
+    color: white;
+    border-radius: 50%;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.icons i:hover{
+    background-color: rgba(0, 255, 255, 0.836);
+    border-radius: 50%;
+}
+.col-hover-shadow:hover{
+    transition: 0.5s;
+    box-shadow: 0 0 8px black;
+}
+
+/* ------------second-last-section------------- */
+
+.section-5{
+    background-color: rgba(224, 224, 224, 0.705);
+}
+.section-5-cot-1 p{
+    margin:  8px 0;
+    color: rgb(68, 68, 68);
+}
+.section-5-cot-1 a{
+    text-decoration: none;
+    color: rgb(68, 68, 68);
+}
+.section-5-cot-1 a:hover{
+    color: blue;
+    text-decoration: underline;
+}
+.section-5 i{
+    font-size: 20px;
+    margin: 0 10px;
+}
+
+/* ------section 6----- */
+.section-6{
+    padding: 5px 206px;
+}
+@media (max-width:1290px) {
+    .ave {
+        padding: 35px 0px 25px 70px;
+    }
+    .avetext{
+        font-size: 170px;
+        letter-spacing: 10rem;
+
+    }
+}
+@media (max-width:1100px) {
+    .ave {
+        padding: 35px 0px 25px 30px;
+    }
+    .avetext{
+        font-size: 100px;
+        letter-spacing: 7rem;
+    }
+    .navbar-1{
+        padding: 0 100px;
+    }
+    .section-6 {
+        padding: 5px 100px;
+    }
+}
+@media (max-width:580px) {
+    .avetext{
+        font-size: 80px;
+        letter-spacing: 3rem;
+    }
+    
+}
+
+/* -----------------------------------page 2---------------------------------- */
+.background-2{
+    background-image: url(../Images/bg2png.png);
+    background-position: center center;
+}
+.black-background{
+    padding:  90px 0px;
+    background-color: rgba(51, 51, 51, 0.562);
+}
+
+/* section 7 */
+.section-7 img{
+    width: 90%;
+}
+.ssec-7-r2-last-sec img{
+    width: 50% !important;
+}
+@media (max-width:900px) {
+    .background-2 h3{
+        font-size: 15px;
+    }
+    .background-2 h4{
+        font-size: 20px;
+    }
+}
+
+
+/* ++++++++++++++++++++++++++++++++++++page 3 ++++++++++++++++++++++++ */
+/* section 8 */
+.section-8 button{
+    letter-spacing: 3px;
+}
+/* section 9 */
+.section-9{
+    background-color: rgba(228, 228, 228, 0.452);
+}
+.sec-9-lower-icons i{
+    font-size: 20px ;
+    margin: 0 10px;
+}
+
+
+
+/* =============================page 4============================= */
+/* section-10 */
+.section-10 img{
+    width: 100%;
+    height: 100%;
+}
+.sec-10-row-2 img{
+    width: 100%;
+    height: 80%;
+}
+.img3-background{
+    background-color: rgb(228, 228, 228);
+    background-image: url(../Images/pg4img1png.png);
+    background-size: 70%;
+    background-position: right ;
+    background-repeat: no-repeat;
+}
+
+/* ---------section 11------------- */
+.sec-11-bg-img{
+    background-image: url(../Images/pg4-img-2png.png);
+    background-size: cover;
+    background-position: center;
+}
+.sec-11-colno-2 h1{
+    font-size: 100px;
+    font-weight: 900;
+}
+.sec-11-colno-2 h2{
+    font-size: 40px;
+    font-weight: 600;
+}
+
+@media (max-width:810px) {
+    .sec-11-colno-2 h1{
+        font-size: 70px;
+        font-weight: 700;
+    }
+    .sec-11-colno-2 h2{
+        font-size: 25px;
+        font-weight: 500;
+    }
+    .section-4 h5{
+        font-size: 23px;
+    }
+}
+/* =============================PAGE 5============================= */
+/* -------section 12-------- */
+.strikerthrough{
+    text-decoration: line-through;
+}
+.first-unordered-list li{
+    list-style-type: none;
+    margin: 0 5px;
+}
+.first-unordered-list a{
+    text-decoration: none;
+    color: black;
+}
+.first-unordered-list a:hover{
+    color: blue;
+}
+.section-12 .fa-brands{
+    margin: 0 4px;
+}
+.yellow-stars{
+    color: yellow;
+}
+.borderd-li a{
+    padding: 0 5px;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+}
+.section-12 button{
+    letter-spacing: 4px;
+}
+.section-12 img{
+    width: 100%;
+}
+.connections{
+    display: flex;
+    justify-content: center;
+    /* background-color: rgb(209, 209, 209); */
+}
+.connection{
+    text-decoration: none;
+    background: linear-gradient(gray,white);
+    border: 1px solid gray;
+    color: black;
+    padding: 4px 8px;
+    margin: 0 3px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.connection:hover{
+    background: linear-gradient(white,gray);
+    color: black;
+    /* padding: 6px 8px; */
+}
+.connection:focus{
+    background: gray;
+}
+.connection:visited{
+    background: gray;
+}
+/* ------section 13--------- */
+.section-13 nav li{
+    padding: 4px 8px;
+}
+
+.section-13 nav li:hover{
+    background-color: black;
+    transition: 0.5s;
+
+}
+.section-13 nav li:hover a{
+    color: white !important;
+    transition: 0.4s;
+}
+
+
+/* -------------------------------Page 6------------------------------- */
+/* section 14 */
+.section-14 a{
+    text-decoration: none;
+    color: rgb(13, 145, 197);
+}
+.section-14 a:hover{
+   color: rgb(5, 109, 150);
+}
