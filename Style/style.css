@@ -140,6 +140,12 @@
         font-size: 80px;
         letter-spacing: 3rem;
     }
+    .navbar-1{
+        padding: 0 20px;
+    }
+    .nav-brand img{
+        width: 160px;
+    }
     
 }
 
